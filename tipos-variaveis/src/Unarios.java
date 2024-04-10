@@ -1,14 +1,26 @@
 public class Unarios {
 
     public static void main(String[] args) {
-        int numero = 5;
+        String nomeUm = "Jonathan";
+        String nomeDois = "Jonathan";
 
-        numero = - numero;
+        System.out.println(nomeUm.equals(nomeDois));
 
-        System.out.println(numero);
+        int numero1 = 1;
+        int numero2 = 2;
 
-        numero = numero * -1;
+        boolean simNao = numero1 == numero2;
 
-        System.out.println(numero);
+        if(numero1 == numero2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+
+        System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+
+
     }
 }
